@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >
+    
+    <ImageView 
+        android:id="@+id/selMoviePoster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>    
+    <TextView 
+        android:id="@+id/selMovieActors"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+    <TextView 
+        android:id="@+id/selMovieDirector"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+    <TextView 
+        android:id="@+id/selMovieRuntime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+    <TextView 
+        android:id="@+id/selMovieGenre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+    <TextView 
+        android:id="@+id/selMovieRated"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+    <TextView 
+        android:id="@+id/selMoviePlot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"/>
+    <RatingBar 
+        android:id="@+id/selMovieRating"
+   		android:layout_width="wrap_content"
+   		android:layout_height="wrap_content"
+   		android:layout_gravity="center"
+   		style="?android:attr/ratingBarStyleSmall"
+ 		android:numStars="10"/>
+    <Button
+        android:id="@+id/buttonDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/dialogClose"/>
+
+</LinearLayout>

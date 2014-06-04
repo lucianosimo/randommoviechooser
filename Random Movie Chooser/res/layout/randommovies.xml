@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/parentRandom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/headerRandomActivity"
+        android:layout_height="48dp"
+        android:layout_width="fill_parent"
+        android:text="@string/randomHeader"
+        android:textColor="@color/black"
+        android:background="@color/babyBlue"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    
+    <FrameLayout
+	    android:id="@+id/ransep0"
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/black"
+	    android:layout_centerHorizontal="true"
+	    android:layout_below="@id/headerRandomActivity">
+    </FrameLayout>
+    
+    <ScrollView 
+        android:id="@+id/scrollableViewRandom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_below="@id/ransep0"
+        android:layout_above="@+id/ransep1">
+    
+	    <LinearLayout
+	        android:id="@+id/randomMoviesWrapper"
+	        android:orientation="vertical"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content">
+	    
+	    <RelativeLayout
+	        android:id="@+id/parentMovie0"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_marginTop="8dp"
+	        android:paddingLeft="8dp"
+	        android:paddingRight="8dp" >
+	
+	        <LinearLayout 
+	            android:id="@+id/linearMovie0"
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:orientation="vertical">
+	        	
+	        	<TextView 
+			    	android:id="@+id/movie0"
+			        android:layout_width="fill_parent"
+			        android:layout_height="16dp"
+			        android:textColor="@color/black"/>
+			    <TextView 
+			    	android:id="@+id/genre0"
+			        android:layout_width="fill_parent"
+			        android:layout_height="16dp"
+			        android:textColor="@color/black"/>
+			    <TextView 
+			    	android:id="@+id/runtime0"
+			        android:layout_width="fill_parent"
+			        android:layout_height="16dp"
+			        android:textColor="@color/black"/>
+	        </LinearLayout>
+		    
+		    <ImageView 
+		        android:id="@+id/poster0"
+		        android:layout_height="68dp"
+		        android:layout_width="48dp"
+		        android:layout_alignParentRight="true"/>
+	    </RelativeLayout>
+		
+	    <FrameLayout
+	        android:id="@+id/separator0"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0.5dp"
+	        android:background="@color/black"
+	        android:layout_marginTop="8dp"
+	        android:layout_marginBottom="8dp" >
+	    </FrameLayout>
+	    
+	    <RelativeLayout
+	        android:id="@+id/parentMovie1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:paddingLeft="8dp"
+	        android:paddingRight="8dp">
+	
+		    <LinearLayout 
+	            android:id="@+id/linearMovie1"
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:orientation="vertical">
+	        	
+	        	<TextView 
+			    	android:id="@+id/movie1"
+			        android:layout_width="fill_parent"
+			        android:layout_height="16dp"
+			        android:textColor="@color/black"/>
+			    <TextView 
+			    	android:id="@+id/genre1"
+			        android:layout_width="fill_parent"
+			        android:layout_height="16dp"
+			        android:textColor="@color/black"/>
+			    <TextView 
+			    	android:id="@+id/runtime1"
+			        android:layout_width="fill_parent"
+			        android:layout_height="16dp"
+			        android:textColor="@color/black"/>
+	        </LinearLayout>
+		    
+		    <ImageView 
+		        android:id="@+id/poster1"
+		        android:layout_height="68dp"
+		        android:layout_width="48dp"
+		        android:layout_alignParentRight="true"/>
+	    </RelativeLayout>
+	    
+	    <FrameLayout
+	        android:id="@+id/separator1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0.5dp"
+	        android:background="@color/black"
+	        android:layout_marginTop="8dp"
+	        android:layout_marginBottom="8dp" >
+	    </FrameLayout>
+	    
+	    <RelativeLayout
+	        android:id="@+id/parentMovie2"
+	        android:orientation="vertical"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="8dp"
+	        android:paddingRight="8dp" >
+			<LinearLayout 
+	            android:id="@+id/linearMovie2"
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:orientation="vertical">
+	        	
+	        	<TextView 
+			    	android:id="@+id/movie2"
+			        android:layout_width="fill_parent"
+			        android:layout_height="16dp"
+			        android:textColor="@color/black"/>
+			    <TextView 
+			    	android:id="@+id/genre2"
+			        android:layout_width="fill_parent"
+			        android:layout_height="16dp"
+			        android:textColor="@color/black"/>
+			    <TextView 
+			    	android:id="@+id/runtime2"
+			        android:layout_width="fill_parent"
+			        android:layout_height="16dp"
+			        android:textColor="@color/black"/>
+	        </LinearLayout>
+		    
+		    <ImageView 
+		        android:id="@+id/poster2"
+		        android:layout_height="68dp"
+		        android:layout_width="48dp"
+		        android:layout_alignParentRight="true"/>
+		</RelativeLayout>
+		
+	    <FrameLayout
+	        android:id="@+id/separator2"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0.5dp"
+	        android:background="@color/black"
+	        android:layout_marginTop="8dp"
+	        android:layout_marginBottom="8dp" >
+	    </FrameLayout>
+	    
+		<RelativeLayout
+		    android:id="@+id/parentMovie3"
+	        android:orientation="vertical"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="8dp"
+	        android:paddingRight="8dp">
+			<LinearLayout 
+	            android:id="@+id/linearMovie3"
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:orientation="vertical">
+	        	
+	        	<TextView 
+			    	android:id="@+id/movie3"
+			        android:layout_width="fill_parent"
+			        android:layout_height="16dp"
+			        android:textColor="@color/black"/>
+			    <TextView 
+			    	android:id="@+id/genre3"
+			        android:layout_width="fill_parent"
+			        android:layout_height="16dp"
+			        android:textColor="@color/black"/>
+			    <TextView 
+			    	android:id="@+id/runtime3"
+			        android:layout_width="fill_parent"
+			        android:layout_height="16dp"
+			        android:textColor="@color/black"/>
+	        </LinearLayout>
+		    
+		    <ImageView 
+		        android:id="@+id/poster3"
+		        android:layout_height="68dp"
+		        android:layout_width="48dp"
+		        android:layout_alignParentRight="true"/>
+		</RelativeLayout>
+		
+		<FrameLayout
+	        android:id="@+id/separator3"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0.5dp"
+	        android:background="@color/black"
+	        android:layout_marginTop="8dp"
+	        android:layout_marginBottom="8dp" >
+	    </FrameLayout>
+	   
+		<RelativeLayout 
+		    android:id="@+id/parentMovie4"
+	        android:orientation="vertical"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="8dp"
+	        android:paddingRight="8dp">
+			<LinearLayout 
+	            android:id="@+id/linearMovie4"
+	            android:layout_height="wrap_content"
+	            android:layout_width="wrap_content"
+	            android:orientation="vertical">
+	        	
+	        	<TextView 
+			    	android:id="@+id/movie4"
+			        android:layout_width="fill_parent"
+			        android:layout_height="16dp"
+			        android:textColor="@color/black"/>
+			    <TextView 
+			    	android:id="@+id/genre4"
+			        android:layout_width="fill_parent"
+			        android:layout_height="16dp"
+			        android:textColor="@color/black"/>
+			    <TextView 
+			    	android:id="@+id/runtime4"
+			        android:layout_width="fill_parent"
+			        android:layout_height="16dp"
+			        android:textColor="@color/black"/>
+	        </LinearLayout>
+		    
+		    <ImageView 
+		        android:id="@+id/poster4"
+		        android:layout_height="68dp"
+		        android:layout_width="48dp"
+		        android:layout_alignParentRight="true"/>
+		</RelativeLayout>
+		
+		<FrameLayout
+	        android:id="@+id/separator4"
+	        android:layout_width="fill_parent"
+	        android:layout_height="0.5dp"
+	        android:background="@color/black"
+	        android:layout_marginTop="8dp"
+	        android:layout_marginBottom="8dp" >
+	    </FrameLayout>
+	    
+		</LinearLayout>
+	
+	</ScrollView>
+    
+    <FrameLayout
+	    android:id="@+id/ransep1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="1dp"
+	    android:background="@color/black"
+	    android:layout_centerHorizontal="true"
+	    android:layout_above="@+id/refreshButton">
+    </FrameLayout>
+    
+	<ImageButton 
+	    android:id="@id/refreshButton"
+	    android:layout_height="wrap_content"
+	    android:layout_width="fill_parent"
+	    android:layout_above="@+id/swipeLeftBox"
+	    android:layout_centerInParent="true"
+	    android:src="@drawable/random_refresh"
+	    android:background="@color/babyBlue"
+	    android:contentDescription="@string/refreshButtonDesc"/>
+	
+	<TextView 
+	   	android:id="@+id/swipeLeftBox"
+	    android:layout_width="fill_parent"
+	    android:layout_height="48dp"
+	    android:textSize="13sp"
+	    android:textStyle="bold"
+	    android:textColor="@color/black"
+	    android:background="@color/babyBlue"
+	    android:text="@string/swipeLeftBox"
+	    android:gravity="center"
+	    android:layout_above="@+id/adView"/>
+	
+	<com.google.ads.AdView android:id="@+id/adView"
+                         android:layout_width="fill_parent"
+                         android:layout_height="wrap_content"
+                         ads:adUnitId="ca-app-pub-7393689937893463/8371819837"
+                         ads:adSize="BANNER"
+                         ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID"
+                         ads:loadAdOnCreate="true"
+                         android:layout_alignParentBottom="true"/>
+    
+</RelativeLayout>

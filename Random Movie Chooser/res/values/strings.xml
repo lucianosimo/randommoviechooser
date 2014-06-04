@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">Top movie picker</string>
+    <string name="buttonDialog">More details</string>
+    <string name="dialogClose">Close</string>
+    <string name="randomHeader">Random Movies</string>
+    <string name="refreshButtonDesc">Refresh button</string>
+    <string name="searchButtonDesc">Search button</string>
+    <string name="searchHeader">Search Movies</string>
+    <string name="swipeLeftBox">Swipe left here to go and search for a movie</string>
+    <string name="swipeRightBox">Swipe right here to see suggested movies again</string>
+    <string name="searchMovieText">Enter title of the movie: </string>
+    <string name="resultHeader">Matched Results </string>
+    <string name="searchButtonText">Go for it!</string>
+
+</resources>
