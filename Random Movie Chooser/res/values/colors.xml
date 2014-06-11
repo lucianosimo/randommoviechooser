@@ -16,5 +16,14 @@
  <color name="blue">#0000FF</color>
  <color name="navy">#000080</color>
  <color name="black">#000000</color>
- <color name="babyBlue">#ACD1E9</color>
+ <color name="androidDarkBlue">#0099cc</color>
+ <color name="androidBlue">#33B5E5</color>
+ <color name="androidDarkPurple">#9933CC</color>
+ <color name="androidPurple">#AA66CC</color>
+ <color name="androidDarkGreen">#669900</color>
+ <color name="androidGreen">#99CC00</color>
+ <color name="androidDarkOrange">#FF8800</color>
+ <color name="androidOrange">#FFBB33</color>
+ <color name="androidDarkRed">#CC0000</color>
+ <color name="androidRed">#FF4444</color>
 </resources>

@@ -1,6 +1,7 @@
 <resources>
 
     <string name="app_name">Top movie picker</string>
+    <string name="title">Random Movies</string>
     <string name="buttonDialog">More details</string>
     <string name="dialogClose">Close</string>
     <string name="randomHeader">Random Movies</string>
